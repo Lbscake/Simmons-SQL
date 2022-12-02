@@ -1,0 +1,21 @@
+--Design a store database
+
+CREATE TABLE balls (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER, price INTEGER);
+
+INSERT INTO balls VALUES (1, "Blues Balls", 20, 7);
+INSERT INTO balls VALUES (2, "Gray Balls", 57, 6);
+INSERT INTO balls VALUES (3, "Orange Balls", 12, 4);
+INSERT INTO balls VALUES (4, "Purple Balls", 7, 7);
+INSERT INTO Balls VALUES (5, "Gold Balls", 38, 8);
+
+--Display database order by quantity
+SELECT * FROM balls
+ORDER BY QUANTITY;
+
+--What are the quantities less than 20
+SELECT * FROM BALLS WHERE quantity <=20;
+
+
+
+
+
